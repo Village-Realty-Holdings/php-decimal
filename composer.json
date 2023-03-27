@@ -1,8 +1,9 @@
 {
     "name": "vrnedwidek/php-decimal",
-    "description": "An arbitrary-precision Decimal class type for PHP.",
+    "description": "An arbitrary-precision Decimal class type for PHP. Forked from Piggly and updated requirements to allow PHP 8.1 and PHP 8.2.",
     "keywords": [
         "piggly",
+	"vrnedwidek",
         "decimal",
         "arbitrary",
         "precision",
@@ -18,7 +19,7 @@
         "bignum"
     ],
     "type": "library",
-    "homepage": "https://github.com/piggly-dev/php-decimal",
+    "homepage": "https://github.com/vrnedwidek/php-decimal",
     "autoload": {
         "psr-4": {
             "Piggly\\Decimal\\": "src/"
